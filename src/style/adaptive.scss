@@ -1,0 +1,133 @@
+@media screen and (max-width: 1090px) {
+  .landing .header {
+    background-size: contain;
+  }
+  .landing .container {
+    width: 100%;
+  }
+  .landing .header-nav {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 45px 25px;
+  }
+  .landing .header-nav.fixed {
+    box-sizing: border-box;
+    padding: 0 25px;
+  }
+  .landing .section1-nav ul {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    line-height: 3;
+  }
+  .landing .section1-nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 16px;
+  }
+  .landing .section1-nav {
+    padding: 0 15px;
+    box-sizing: border-box;
+  }
+  .section-content__text-img {
+    width: 100%;
+  }
+  .landing .section-content {
+    width: 100%;
+    padding: 0 15px;
+    box-sizing: border-box;
+  }
+  .landing .section-content__text-img__game {
+    width: 100%;
+  }
+  .landing .section-content__title-loto {
+    font-size: 27px;
+  }
+  .landing .section-content__title {
+    font-size: 24px;
+  }
+  .landing .section-content__text-gray {
+    font-size: 16px;
+  }
+  .landing .section-content .list-block__item-info__title {
+    font-size: 16px;
+  }
+  .landing .section-content .list-block__item-info__text {
+    font-size: 16px;
+  }
+  .landing .section-content__btn {
+    font-size: 18px;
+  }
+  .footer {
+    justify-content: flex-start;
+  }
+  .footer-text {
+    padding-left: 30px;
+  }
+  .landing .section-content__quote::before {
+    height: 80%;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .landing .header-barrels {
+    width: 100%; 
+  }
+  .header-barrels img {
+    width: 100%; 
+  }
+  .header-nav {
+    position: fixed;
+    width: 100%;
+    height: 64px;
+    top: 0;
+    background-color: var(--color-site);
+    left: 0;
+    z-index: 1;
+    padding: 0 15px !important;
+    display: flex;
+    align-items: center;
+  }
+  .header-nav__social-f {
+    width: 25px !important;
+    height: 25px !important;
+  }
+  .header-nav__social-t {
+    width: 25px !important;
+    height: 25px !important;
+  }
+  .header-nav__social-vk {
+    width: 25px !important;
+    height: 25px !important;
+  }
+  .landing .header-nav__social a {
+    margin-right: 8px;
+  }
+  .landing .header-nav__logo img:first-child {
+    margin-right: 18px;
+  }
+  .landing .header-nav__logo::after {
+    right: 44px;
+  }
+  .list-block__item img {
+    width: 36px !important;
+    height: 36px !important;
+  }
+  .landing .section-content .list-block__item-info {
+    padding-left: 0px;
+  }
+  .landing .section-content .list-block__item {
+    margin-bottom: 30px;
+  }
+  .landing .section-content .list-block__item-info__text {
+    margin-top: 15px;
+    padding-left: 0;
+  }
+  .landing .section-content .list-block__item img {
+    position: relative !important;
+  }
+  .landing .section-content .list-block__item-info__title {
+    padding-left: 15px
+  }
+}

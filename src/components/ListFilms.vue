@@ -1,16 +1,35 @@
 <template>
 <div class="favorites">
+  <div class="nav-bar">
+    Меню
+    <p>asdsa</p>
+    <p>asdsa</p>
+    <p>asdsa</p>
+    <p>asdsa</p>
+    <p>asdsa</p>
+    <p>asdsa</p>
+    <p>asdsa</p>
+  </div>
   <div class="container">
-  список фильмов
+    <div class="title">Избранное</div>
+
+    <div class="favorites-list">
+
+      <ItemFilms></ItemFilms>
+
+    </div>
+
   </div>
 </div>
 </template>
 
 <script>
+import ItemFilms from '../components/ItemFilms.vue'
+
 export default {
-  name: 'HelloWorld',
-  props: {
-    msg: String
+  name: 'ListFilms',
+  components: {
+    ItemFilms
   }
 }
 </script>

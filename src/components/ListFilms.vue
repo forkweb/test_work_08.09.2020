@@ -78,6 +78,12 @@ export default {
           });
         }
       });
+    },
+    addFavorites(){
+      $(document).on("click",".favorites-heart",function(){
+        $(this).css("fill","red");
+        $(this).css("stroke","red");
+      });
     }
   },
   create(){
@@ -85,6 +91,7 @@ export default {
   },
   mounted() {
     this.Menu();
+    this.addFavorites();
   },
 }
 </script>
